@@ -1,0 +1,28 @@
+{
+  "hotkeys": [
+    {
+      "keyCode": 75,
+      "nickname": "Autoclicker",
+      "ctrl": false,
+      "shift": false,
+      "alt": false,
+      "period": "1",
+      "script": "Game.lastClick=0;\nGame.ClickCookie({detail:1,preventDefault:()=>{}});"
+    },
+    {
+      "keyCode": 76,
+      "nickname": "Golden Autoclicker",
+      "ctrl": false,
+      "shift": false,
+      "alt": false,
+      "period": "1",
+      "script": "Game.shimmers.forEach(function(shimmer){shimmer.pop()})"
+    }
+  ],
+  "patches": {
+    "gardenOrderofOperations": 0,
+    "slotGodFix": 0,
+    "gamblersFeverDreamFix": 0
+  },
+  "onLoadFunctions": []
+}
